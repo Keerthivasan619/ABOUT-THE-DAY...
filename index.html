@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the day....</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>About the day....</h2>
+    </div>
+    <div class="continer">
+        <div class="mind-continer">
+            <h2>iam so happy...</h2>
+            <h5>28/06/2025</h5>
+            <p>Over the moon. If you say that you are over the moon, you mean that you are very pleased about something. ... </p>
+            <button onclick="deletemind(event)"> delete </button>
+
+        </div>
+    </div>
+
+    <div class="popup-overlay"></div>
+    <div class="add-popup">
+        <h2>About the day....</h2>
+        <form>
+            <input type="text" placeholder="how was the day.." id="day-input">
+            <input type="date" placeholder="date" id="date-input">
+            <textarea placeholder="short-discription" id="day-discription"></textarea>
+            <button id="add-day">add</button>
+            <button id="cancel-popup">cancel</button>
+        </form>
+
+    </div>
+
+
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
